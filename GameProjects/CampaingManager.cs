@@ -4,11 +4,32 @@ using System.Text;
 
 namespace GameProjects
 {
-    class CampaingManager : ICampaingService
+    public class CampaingManager : ICampaingService
     {
-        public void Add(Campaign campaign)
+        public Campaign Add(Campaign campaign)
         {
             Console.WriteLine("Kampanya Eklendi");
+
+            return campaign;
+
+
         }
+        public Campaign Update(Campaign campaign)
+        {
+            Console.WriteLine("Kampanya Guncellendi");
+
+            return campaign;
+
+             
+        }
+        public void Remove(Campaign campaign) 
+        {
+            Console.WriteLine("Kampanya Silindi"); 
+
+            
+
+
+        }
+
     }
 }

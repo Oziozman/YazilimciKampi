@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GameProjects
+namespace GameProjects 
 {
     class Campaing
     {

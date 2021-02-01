@@ -6,10 +6,13 @@ namespace GameProjects
 {
     interface ICampaingService
     {
-          void Add(Campaign campaign);
+          Campaign Add(Campaign campaign);
     }
 
     public class Campaign
     {
+        public int Id { get; internal set; }
+        public string Name { get; internal set; }
+        public string Rate { get; internal set; }
     }
 }
